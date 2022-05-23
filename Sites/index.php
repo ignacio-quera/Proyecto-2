@@ -8,7 +8,7 @@
 <h1 align="center">Aquí podras realizar todas las consultas que quieras relacionadas a vuelos.</h1>
 <br>
 <br>
-<h3 align="center">¿Quieres ver los vuelos pendientes de ser aprobados por la DGAC?</h3>
+<h3 align="center">¿Quieres ver todos los vuelos pendientes de ser aprobados por la DGAC?</h3>
 <form align="center" action="consultas/consulta_tipo_estado.php">
     <input type="submit" value="Buscar">
 </form>
