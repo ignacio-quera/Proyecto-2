@@ -7,14 +7,17 @@
     require("../config/conexion.php");
 
     // $query = "SELECT *
-    $query = "SELECT companiaaerea.codigoca, r1.npasaportereservador, count(r1.idticket) as tickets
+    $query = "SELECT ca, np, tickets FROM(
+                SELECT companiaaerea.codigoca as ca, r1.npasaportereservador as np, count(r1.idticket) as tickets,
+                rank() over (partition by companiaaerea.codigoca  order by count(r1.idticket) desc) as rank_cliente 
                 FROM reserva as r1
                 INNER JOIN ticket on r1.idticket = ticket.idticket
                 INNER JOIN pasajero on r1.npasaportereservador = pasajero.npasaporte
                 INNER JOIN vuelos on ticket.idvuelo = vuelos.idvuelo
                 INNER JOIN companiaaerea on vuelos.codigoca = companiaaerea.codigoca
                 GROUP BY companiaaerea.codigoca, r1.npasaportereservador
-                ORDER BY companiaaerea.codigoca
+                ORDER BY companiaaerea.codigoca) rank
+                WHERE rank_cliente <= 1
                 "; // Crear la consulta
     $result = $db -> prepare($query);
     $result -> execute();    
