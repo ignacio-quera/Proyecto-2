@@ -1,35 +1,34 @@
 <?php include('../templates/header.html'); ?>
 
 <body>
-
 <?php
     require("../config/conexion.php");
-    // print_r($_POST);
-    $icao = $_POST["codigoicao"];
-    $compania = $_POST["compania"];
 
-    echo "<h1 align='center'>Vuelos Aceptados de la aerolínea " . $compania . "con destino al aeropuerto de código " . $icao ."</h1>";
+    $reserva = $_POST["codigoreserva"];
+    // echo "reserva = $reserva";
+    echo "<h1 align='center'>Tickets, pasajeros y costos dado el código de reserva " . $reserva . "</h1>";
 
     // $query = "SELECT *
-    $query = "SELECT vuelos.fechasalida , vuelos.codigovuelo, vuelos.codigoca
-                FROM vuelos
-                WHERE vuelos.estado LIKE '%aceptado%'
-                AND vuelos.llegadaicao LIKE '%$icao%'
-                AND vuelos.codigoca LIKE '%$compania%'"; // Crear la consulta
+    $query = "SELECT ticket.idticket, pasajero.npasaporte, costo.precio
+                FROM reserva
+                LEFT JOIN ticket on reserva.idticket = ticket.idticket
+                LEFT JOIN costo on ticket.idcosto = costo.idcosto
+                LEFT JOIN pasajero on reserva.npasaportereservado = pasajero.npasaporte
+                WHERE reserva.codigoreserva like '%$reserva%'"; // Crear la consulta
     $result = $db -> prepare($query);
     $result -> execute();    
     $vuelos = $result -> fetchAll();
 
     // print_r($vuelos)
     ?>
-
+    <br>
     <div style="margin-right:50px; margin-left:50px;" >
     <table align="center" class="table table-bordered" margin:4px style="width:100%">
         <thead class="thead-dark">
         <tr>
-            <th scope="col">Fecha Salida</th>
-            <th scope="col">Codigo Vuelo</th>
-            <th scope="col">Codigo Compañia Aerea</th>
+            <th scope="col">Tickets</th>
+            <th scope="col">Pasaporte  Pasajero</th>
+            <th scope="col">Precio</th>
         </tr>
         </thead>
         <tbody>

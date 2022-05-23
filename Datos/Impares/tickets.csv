@@ -1,150 +1,774 @@
-valor
-214000
-1990000
-143000
-321000
-1330000
-1850000
-900000
-5280000
-460000
-157000
-162000
-3370000
-157000
-1090000
-840000
-1660000
-142000
-1310000
-990000
-143000
-320000
-157000
-2510000
-320000
-169000
-157000
-660000
-660000
-2290000
-860000
-410000
-662000
-940000
-4980000
-880000
-267000
-2640000
-1240000
-126000
-5280000
-302000
-72000
-157000
-2070000
-3370000
-1490000
-42000
-160000
-2010000
-1350000
-107000
-660000
-440000
-403000
-1670000
-700000
-890000
-1240000
-5280000
-65000
-2460000
-72000
-2990000
-77000
-222000
-1640000
-1340000
-5280000
-209000
-1250000
-320000
-454000
-580000
-350000
-331000
-325000
-1110000
-1970000
-1640000
-240000
-143000
-1640000
-214000
-1640000
-2680000
-157000
-1240000
-1910000
-1640000
-3050000
-5280000
-536000
-3980000
-1670000
-142000
-830000
-107000
-101000
-1440000
-840000
-113000
-2070000
-157000
-214000
-641000
-1340000
-188000
-400000
-940000
-222000
-1690000
-3690000
-188000
-130000
-3820000
-202000
-378000
-2220000
-660000
-830000
-3480000
-1090000
-226000
-1880000
-286000
-2290000
-1670000
-142000
-162000
-740000
-418000
-830000
-481000
-107000
-700000
-174000
-400000
-276000
-157000
-1690000
-1460000
-2220000
-166000
-320000
-454000
-5280000
-226000
-143000
-620000
+idticket,idvuelo,numero_asiento,clase,comida_y_maleta,idCosto
+2096,100,21,Primera clase,False,34
+4435,130,4,Economica,False,60
+6305,96,8,Primera clase,False,133
+8161,105,6,Ejecutiva,False,59
+316,100,22,Economica,True,34
+3411,114,26,Primera clase,True,93
+4516,99,17,Economica,True,38
+3856,121,3,Economica,False,13
+7951,120,4,Ejecutiva,True,16
+7946,130,25,Primera clase,True,60
+3309,129,18,Economica,False,18
+4133,110,18,Economica,True,25
+7224,128,21,Ejecutiva,False,62
+157,95,19,Economica,True,17
+8599,102,11,Economica,False,91
+195,110,20,Economica,True,25
+4873,126,6,Ejecutiva,False,3
+8518,95,6,Economica,False,17
+7289,119,3,Ejecutiva,True,128
+9598,100,30,Economica,False,34
+8254,124,30,Ejecutiva,True,32
+5809,111,10,Ejecutiva,True,33
+7700,125,20,Economica,False,41
+1031,117,10,Economica,True,122
+127,100,19,Primera clase,True,34
+385,116,18,Ejecutiva,True,28
+4984,128,17,Economica,False,62
+5775,99,5,Economica,True,38
+5178,109,25,Economica,False,90
+6775,126,2,Primera clase,False,3
+2170,101,6,Economica,False,35
+9125,103,26,Economica,False,123
+5170,96,31,Economica,True,133
+3117,106,6,Ejecutiva,True,56
+2381,109,14,Economica,False,90
+9932,99,14,Ejecutiva,False,38
+1715,104,15,Primera clase,True,65
+8394,116,20,Primera clase,False,28
+719,123,8,Primera clase,False,8
+7979,111,20,Economica,True,33
+8656,109,24,Ejecutiva,False,90
+7017,103,11,Ejecutiva,False,123
+550,101,7,Primera clase,False,35
+5110,115,12,Economica,True,107
+2563,96,3,Ejecutiva,True,133
+2154,106,11,Ejecutiva,True,56
+6065,108,8,Ejecutiva,True,51
+4968,106,23,Economica,False,56
+8734,102,7,Economica,False,91
+542,128,22,Economica,True,62
+6730,133,6,Economica,True,63
+7235,96,5,Ejecutiva,False,133
+3393,117,16,Primera clase,False,122
+2581,99,12,Economica,False,38
+9662,118,28,Ejecutiva,True,11
+6391,100,12,Economica,True,34
+815,125,22,Ejecutiva,False,41
+5177,99,8,Economica,True,38
+6731,117,15,Economica,True,122
+2248,124,6,Primera clase,True,32
+3175,101,23,Economica,True,35
+936,108,6,Ejecutiva,False,51
+6134,108,11,Ejecutiva,True,51
+9087,107,14,Economica,True,66
+8358,115,27,Economica,True,107
+4807,124,29,Ejecutiva,True,32
+6732,105,23,Primera clase,True,59
+2589,127,15,Primera clase,True,19
+2945,116,14,Economica,True,28
+704,114,23,Economica,True,93
+5215,99,31,Primera clase,False,38
+2391,128,31,Economica,True,62
+83,117,18,Primera clase,True,122
+2341,95,11,Primera clase,False,17
+8601,103,5,Ejecutiva,False,123
+5888,131,22,Ejecutiva,False,98
+6633,127,19,Economica,False,19
+7403,116,28,Primera clase,True,28
+472,99,25,Economica,False,38
+1361,97,11,Economica,True,102
+2243,110,10,Primera clase,False,25
+2274,112,21,Primera clase,True,129
+606,130,24,Primera clase,True,60
+9531,125,3,Economica,True,41
+3810,105,28,Primera clase,False,59
+4726,99,28,Economica,True,38
+8163,105,11,Primera clase,False,59
+4684,101,3,Economica,True,35
+6965,116,22,Primera clase,True,28
+1895,121,26,Primera clase,True,13
+3329,127,5,Primera clase,True,19
+7333,105,20,Primera clase,True,59
+8037,122,5,Ejecutiva,True,9
+7840,104,14,Primera clase,True,65
+2226,113,2,Economica,False,46
+4287,118,23,Economica,True,11
+7666,125,9,Ejecutiva,False,41
+6555,98,21,Economica,False,77
+3138,120,21,Primera clase,False,16
+9885,128,7,Primera clase,True,62
+114,103,29,Economica,True,123
+5345,113,27,Economica,True,46
+4198,129,28,Economica,False,18
+9995,104,27,Primera clase,True,65
+246,105,7,Economica,False,59
+3235,102,29,Primera clase,True,91
+670,132,7,Primera clase,True,50
+2928,101,26,Economica,False,35
+3083,103,28,Ejecutiva,False,123
+8398,113,12,Primera clase,True,46
+4463,107,9,Ejecutiva,True,66
+2906,97,16,Primera clase,True,102
+7155,129,21,Economica,False,18
+4274,130,13,Primera clase,False,60
+4478,120,2,Primera clase,False,16
+5536,117,19,Ejecutiva,False,122
+9747,101,17,Ejecutiva,False,35
+7880,112,14,Ejecutiva,True,129
+2626,99,15,Ejecutiva,True,38
+7804,98,8,Economica,True,77
+4471,115,25,Primera clase,False,107
+436,102,2,Economica,True,91
+4327,101,25,Economica,True,35
+5864,96,26,Ejecutiva,True,133
+8172,130,9,Economica,False,60
+8314,125,26,Ejecutiva,True,41
+9508,108,17,Ejecutiva,False,51
+2220,108,19,Economica,True,51
+384,100,18,Primera clase,True,34
+7042,131,8,Ejecutiva,True,98
+5471,122,8,Ejecutiva,False,9
+5029,131,5,Economica,False,98
+5275,125,14,Economica,False,41
+8630,126,13,Ejecutiva,False,3
+9855,125,19,Primera clase,False,41
+46,118,21,Economica,True,11
+8056,114,24,Economica,False,93
+224,105,32,Ejecutiva,True,59
+2153,96,17,Ejecutiva,True,133
+3002,129,22,Economica,True,18
+840,125,28,Economica,False,41
+1959,123,26,Economica,False,8
+265,101,19,Ejecutiva,False,35
+4062,115,22,Economica,True,107
+4381,119,23,Economica,True,128
+65,114,25,Economica,False,93
+4213,119,8,Economica,True,128
+5661,129,16,Economica,False,18
+8076,125,18,Economica,False,41
+8783,128,4,Economica,True,62
+8835,130,11,Economica,True,60
+8180,132,25,Ejecutiva,False,50
+9189,128,26,Primera clase,False,62
+1146,128,20,Economica,False,62
+6214,126,1,Primera clase,True,3
+2142,132,21,Primera clase,False,50
+7102,109,10,Primera clase,True,90
+4105,131,7,Economica,False,98
+8459,128,5,Primera clase,False,62
+4856,125,7,Economica,False,41
+4966,122,2,Economica,True,9
+2097,132,8,Economica,True,50
+181,126,25,Ejecutiva,False,3
+2636,130,7,Ejecutiva,True,60
+8266,126,12,Ejecutiva,False,3
+4275,101,24,Ejecutiva,True,35
+6330,98,23,Ejecutiva,False,77
+420,121,10,Economica,False,13
+8535,132,22,Economica,False,50
+9823,133,14,Economica,False,63
+6672,125,30,Ejecutiva,False,41
+681,95,8,Ejecutiva,True,17
+8911,100,6,Economica,False,34
+5384,120,20,Primera clase,True,16
+7720,124,15,Economica,False,32
+5779,128,25,Economica,False,62
+4052,126,14,Ejecutiva,False,3
+7198,112,18,Economica,True,129
+3813,118,19,Economica,False,11
+3026,127,29,Economica,False,19
+1500,102,26,Economica,False,91
+2008,130,19,Ejecutiva,False,60
+7043,118,16,Primera clase,False,11
+99,115,3,Ejecutiva,False,107
+256,96,2,Ejecutiva,False,133
+380,117,23,Economica,True,122
+190,125,31,Economica,True,41
+694,114,18,Economica,False,93
+9054,113,8,Primera clase,True,46
+4769,124,22,Primera clase,False,32
+8667,129,17,Economica,True,18
+7411,108,5,Economica,True,51
+7007,107,1,Ejecutiva,True,66
+4696,99,24,Economica,True,38
+7299,108,4,Economica,False,51
+9562,126,19,Economica,False,3
+9559,101,15,Economica,False,35
+1591,117,9,Primera clase,True,122
+569,106,22,Economica,True,56
+9081,133,29,Ejecutiva,True,63
+6552,102,17,Economica,False,91
+4997,125,2,Economica,True,41
+3901,106,21,Economica,False,56
+1910,96,4,Primera clase,False,133
+3904,122,13,Economica,True,9
+2613,113,10,Economica,False,46
+7618,121,12,Economica,False,13
+4056,129,3,Economica,True,18
+622,119,5,Economica,True,128
+4303,114,5,Economica,False,93
+6582,122,7,Economica,False,9
+5763,111,30,Economica,False,33
+7745,129,8,Ejecutiva,True,18
+5169,121,28,Ejecutiva,False,13
+5287,103,21,Ejecutiva,False,123
+6554,112,20,Ejecutiva,False,129
+8512,128,24,Primera clase,False,62
+1836,123,1,Primera clase,True,8
+6024,132,12,Economica,True,50
+8748,111,12,Economica,False,33
+7091,117,2,Ejecutiva,False,122
+5854,122,12,Primera clase,False,9
+1600,112,25,Primera clase,True,129
+1388,114,16,Economica,True,93
+659,97,13,Primera clase,True,102
+7659,108,15,Primera clase,True,51
+965,128,16,Economica,True,62
+2284,113,30,Economica,True,46
+8840,103,22,Economica,True,123
+4672,108,16,Economica,False,51
+3500,111,31,Economica,False,33
+5857,102,18,Ejecutiva,True,91
+8980,98,14,Primera clase,False,77
+8903,111,14,Economica,True,33
+9752,124,31,Ejecutiva,True,32
+9451,102,21,Ejecutiva,False,91
+972,104,21,Ejecutiva,False,65
+3521,130,12,Economica,True,60
+529,97,29,Primera clase,True,102
+7355,118,7,Ejecutiva,False,11
+3142,110,21,Primera clase,False,25
+565,111,23,Primera clase,False,33
+1598,129,29,Economica,False,18
+35,96,22,Economica,False,133
+9677,125,10,Primera clase,False,41
+4469,100,17,Economica,True,34
+8327,116,23,Economica,True,28
+2529,109,1,Economica,False,90
+4492,102,4,Ejecutiva,False,91
+1152,103,20,Primera clase,True,123
+5164,105,10,Ejecutiva,False,59
+2752,116,25,Economica,True,28
+4135,118,15,Primera clase,False,11
+4016,106,17,Ejecutiva,True,56
+5094,132,19,Primera clase,True,50
+5870,100,2,Economica,True,34
+3524,101,12,Ejecutiva,False,35
+645,110,23,Primera clase,True,25
+7768,108,22,Economica,True,51
+3429,125,16,Economica,False,41
+9347,95,31,Economica,True,17
+4253,131,14,Primera clase,False,98
+8320,111,19,Economica,False,33
+2397,112,4,Ejecutiva,False,129
+3863,105,31,Economica,False,59
+2550,121,30,Primera clase,True,13
+4567,133,18,Ejecutiva,False,63
+2957,126,27,Ejecutiva,True,3
+4922,108,13,Ejecutiva,True,51
+5200,125,17,Economica,True,41
+1291,124,20,Economica,False,32
+4011,106,15,Ejecutiva,True,56
+5956,130,14,Ejecutiva,True,60
+7160,102,19,Economica,True,91
+9078,124,3,Ejecutiva,False,32
+198,110,14,Primera clase,False,25
+9658,115,28,Ejecutiva,False,107
+4219,102,23,Economica,True,91
+2237,132,11,Primera clase,False,50
+2014,128,32,Ejecutiva,True,62
+1358,130,21,Economica,True,60
+7900,112,11,Primera clase,True,129
+1798,113,19,Economica,True,46
+34,104,20,Economica,False,65
+1834,111,13,Economica,False,33
+8241,95,7,Primera clase,False,17
+8012,104,6,Primera clase,False,65
+4061,95,23,Primera clase,False,17
+7436,99,9,Economica,True,38
+213,105,12,Primera clase,False,59
+5311,131,19,Ejecutiva,False,98
+5977,128,12,Primera clase,True,62
+8483,128,18,Primera clase,False,62
+6192,131,3,Economica,True,98
+9663,96,25,Economica,True,133
+2427,96,11,Economica,True,133
+6168,112,12,Primera clase,True,129
+5705,107,8,Ejecutiva,False,66
+977,118,12,Primera clase,False,11
+4719,110,3,Economica,False,25
+6873,105,21,Primera clase,True,59
+3507,130,20,Primera clase,True,60
+3196,128,28,Primera clase,True,62
+3430,131,4,Economica,True,98
+1701,113,3,Ejecutiva,True,46
+7842,106,16,Ejecutiva,False,56
+9726,122,9,Economica,True,9
+1876,116,32,Economica,False,28
+1369,115,29,Economica,True,107
+33,110,25,Primera clase,False,25
+4257,98,4,Economica,False,77
+9988,126,31,Economica,False,3
+8613,105,27,Primera clase,True,59
+2955,108,3,Ejecutiva,True,51
+753,115,13,Ejecutiva,False,107
+2661,103,13,Ejecutiva,True,123
+4246,105,29,Economica,False,59
+6623,124,16,Economica,False,32
+540,130,16,Primera clase,False,60
+2691,114,7,Economica,True,93
+2921,119,21,Economica,False,128
+6924,95,24,Ejecutiva,True,17
+7782,110,12,Ejecutiva,True,25
+4865,120,3,Economica,False,16
+1856,111,5,Primera clase,False,33
+1540,120,11,Ejecutiva,True,16
+251,114,30,Primera clase,True,93
+8449,103,23,Economica,True,123
+2779,96,30,Economica,False,133
+3910,113,9,Primera clase,False,46
+3824,110,11,Ejecutiva,False,25
+2415,98,11,Economica,False,77
+4386,111,3,Primera clase,True,33
+2496,98,17,Primera clase,False,77
+1610,97,12,Primera clase,False,102
+839,121,23,Economica,True,13
+5481,117,17,Primera clase,False,122
+2136,111,29,Economica,False,33
+8745,133,11,Economica,False,63
+66,109,18,Primera clase,False,90
+2139,108,18,Economica,False,51
+4331,119,14,Primera clase,False,128
+5869,103,18,Primera clase,True,123
+9596,104,23,Economica,True,65
+8653,95,13,Economica,True,17
+1237,97,22,Economica,True,102
+4695,111,17,Economica,False,33
+899,122,10,Economica,True,9
+7101,102,9,Economica,True,91
+7257,104,30,Economica,False,65
+9144,97,21,Primera clase,True,102
+1143,95,15,Primera clase,True,17
+20,98,6,Primera clase,True,77
+5051,133,2,Economica,False,63
+4488,120,13,Ejecutiva,False,16
+4194,120,16,Economica,True,16
+9533,111,8,Economica,True,33
+7865,127,14,Economica,False,19
+1247,96,18,Economica,False,133
+6687,111,21,Economica,False,33
+2920,107,3,Economica,False,66
+1803,129,4,Primera clase,False,18
+9323,126,11,Primera clase,False,3
+5420,120,28,Economica,False,16
+739,116,19,Economica,True,28
+1539,123,20,Ejecutiva,True,8
+4307,114,12,Economica,False,93
+8101,114,8,Economica,True,93
+6603,106,27,Primera clase,False,56
+146,129,25,Economica,False,18
+5238,117,11,Primera clase,True,122
+7278,108,26,Ejecutiva,False,51
+3668,107,18,Primera clase,True,66
+119,131,16,Economica,False,98
+637,112,5,Ejecutiva,True,129
+3771,107,6,Economica,True,66
+2919,122,24,Primera clase,False,9
+9912,125,6,Ejecutiva,False,41
+4691,127,3,Primera clase,False,19
+7757,116,13,Primera clase,True,28
+4033,97,24,Economica,True,102
+3482,100,7,Ejecutiva,True,34
+7655,103,12,Primera clase,False,123
+2862,123,32,Ejecutiva,False,8
+2028,127,23,Primera clase,True,19
+957,107,23,Primera clase,True,66
+9396,114,6,Ejecutiva,True,93
+2089,110,22,Economica,False,25
+7515,119,24,Primera clase,False,128
+3187,130,15,Economica,False,60
+6894,98,16,Ejecutiva,True,77
+4340,99,7,Economica,False,38
+3682,96,28,Ejecutiva,True,133
+5378,128,14,Economica,False,62
+3192,96,1,Economica,True,133
+791,98,2,Economica,False,77
+6358,105,8,Primera clase,False,59
+9949,118,9,Economica,False,11
+9692,118,24,Economica,False,11
+7015,131,23,Economica,False,98
+8568,102,22,Economica,False,91
+5333,104,5,Primera clase,True,65
+1505,105,15,Ejecutiva,True,59
+2714,114,10,Ejecutiva,True,93
+3380,119,25,Primera clase,False,128
+3538,124,32,Primera clase,False,32
+1726,102,5,Primera clase,True,91
+9947,103,25,Economica,True,123
+2072,98,24,Economica,False,77
+7161,109,6,Primera clase,False,90
+1837,133,13,Economica,False,63
+8299,108,20,Economica,True,51
+8953,123,28,Economica,True,8
+6828,114,27,Ejecutiva,True,93
+2350,95,4,Ejecutiva,True,17
+5862,111,18,Economica,True,33
+8547,116,11,Economica,True,28
+2354,108,14,Primera clase,False,51
+5766,133,21,Primera clase,False,63
+2339,111,11,Primera clase,True,33
+9204,126,30,Economica,False,3
+630,107,10,Primera clase,True,66
+1396,121,15,Economica,True,13
+31,114,4,Economica,True,93
+8480,131,11,Economica,False,98
+5841,100,16,Economica,False,34
+2724,111,16,Primera clase,False,33
+7567,104,22,Economica,False,65
+9052,109,28,Primera clase,True,90
+854,125,24,Economica,False,41
+1080,127,6,Economica,True,19
+9593,122,25,Ejecutiva,False,9
+3331,96,20,Economica,True,133
+2168,97,20,Economica,True,102
+986,118,18,Economica,True,11
+117,103,14,Economica,True,123
+5363,127,2,Economica,False,19
+3611,107,25,Ejecutiva,True,66
+7484,129,6,Economica,False,18
+2292,111,9,Economica,True,33
+9435,123,31,Primera clase,True,8
+3214,124,28,Economica,False,32
+2578,122,17,Economica,False,9
+4764,120,5,Primera clase,True,16
+8829,123,19,Primera clase,False,8
+6016,96,19,Ejecutiva,True,133
+8272,131,18,Economica,True,98
+3139,112,22,Ejecutiva,False,129
+4170,99,29,Economica,True,38
+7233,107,12,Economica,True,66
+8217,115,15,Primera clase,False,107
+9569,102,10,Ejecutiva,True,91
+3570,104,26,Economica,True,65
+2475,111,25,Primera clase,True,33
+4475,119,7,Ejecutiva,False,128
+348,126,22,Ejecutiva,True,3
+5853,107,4,Ejecutiva,True,66
+2329,118,1,Economica,False,11
+4357,114,11,Economica,True,93
+6868,95,18,Primera clase,False,17
+8281,98,12,Economica,False,77
+6212,110,17,Economica,False,25
+7738,107,26,Primera clase,True,66
+2821,119,9,Primera clase,True,128
+7657,111,6,Ejecutiva,True,33
+5896,132,20,Ejecutiva,True,50
+981,125,1,Primera clase,False,41
+9031,119,17,Primera clase,False,128
+8504,115,18,Primera clase,True,107
+8744,112,27,Economica,False,129
+4453,102,8,Primera clase,False,91
+8724,109,15,Economica,True,90
+6198,112,15,Ejecutiva,True,129
+8589,126,28,Ejecutiva,True,3
+8715,96,23,Economica,True,133
+9669,101,10,Economica,False,35
+6463,113,25,Economica,True,46
+2060,123,22,Economica,True,8
+4702,133,27,Ejecutiva,False,63
+3633,102,12,Primera clase,False,91
+6441,117,25,Ejecutiva,True,122
+1649,111,4,Ejecutiva,True,33
+4538,128,27,Primera clase,True,62
+9822,116,24,Economica,False,28
+6912,132,2,Economica,True,50
+3441,121,19,Primera clase,False,13
+6586,130,5,Ejecutiva,False,60
+9806,126,23,Ejecutiva,True,3
+951,109,19,Ejecutiva,True,90
+7165,97,4,Primera clase,False,102
+8940,131,10,Economica,False,98
+5007,126,24,Economica,True,3
+5569,105,1,Ejecutiva,False,59
+2378,101,8,Economica,True,35
+9141,113,21,Ejecutiva,True,46
+5567,132,18,Economica,True,50
+8633,115,16,Economica,False,107
+3959,111,22,Economica,False,33
+9712,110,5,Ejecutiva,False,25
+1282,107,24,Economica,True,66
+5073,122,4,Economica,False,9
+4134,102,30,Ejecutiva,False,91
+7756,127,28,Economica,False,19
+2582,102,13,Ejecutiva,False,91
+6071,124,21,Ejecutiva,True,32
+7481,98,22,Primera clase,False,77
+2859,119,18,Primera clase,False,128
+6724,116,29,Ejecutiva,True,28
+5642,115,26,Primera clase,False,107
+4784,108,7,Primera clase,True,51
+8378,100,11,Primera clase,False,34
+1487,131,13,Ejecutiva,False,98
+5294,95,14,Primera clase,False,17
+4390,101,29,Primera clase,False,35
+4982,106,1,Economica,True,56
+3902,131,21,Ejecutiva,True,98
+4205,124,13,Economica,False,32
+2140,110,26,Economica,True,25
+7491,113,22,Economica,False,46
+9095,100,28,Economica,True,34
+4021,114,21,Economica,True,93
+9027,128,15,Ejecutiva,False,62
+308,114,28,Ejecutiva,False,93
+6139,130,6,Economica,True,60
+3508,118,13,Economica,True,11
+4207,117,4,Primera clase,False,122
+3585,106,29,Economica,True,56
+8814,111,15,Ejecutiva,False,33
+756,133,20,Economica,True,63
+807,97,32,Economica,True,102
+2754,109,20,Economica,True,90
+2265,123,29,Economica,True,8
+7872,121,18,Economica,True,13
+9088,123,21,Ejecutiva,False,8
+2191,108,29,Primera clase,True,51
+7761,111,24,Economica,True,33
+7412,120,23,Economica,False,16
+9085,112,28,Economica,False,129
+7950,120,10,Primera clase,True,16
+7593,105,2,Economica,True,59
+2486,101,9,Economica,True,35
+9748,114,17,Economica,False,93
+8830,124,19,Economica,True,32
+7297,125,12,Primera clase,True,41
+7721,108,2,Economica,False,51
+5679,100,15,Economica,True,34
+6837,125,4,Primera clase,True,41
+4541,104,11,Economica,False,65
+7111,102,6,Economica,True,91
+1261,127,27,Primera clase,True,19
+2446,102,24,Primera clase,False,91
+5963,107,7,Economica,True,66
+3354,105,30,Economica,False,59
+4302,100,4,Ejecutiva,True,34
+482,124,5,Ejecutiva,True,32
+2943,104,28,Primera clase,True,65
+4943,102,16,Ejecutiva,True,91
+3065,95,12,Primera clase,True,17
+7732,120,9,Primera clase,True,16
+5598,121,11,Ejecutiva,False,13
+2407,129,5,Primera clase,True,18
+1914,95,9,Economica,False,17
+325,112,3,Ejecutiva,False,129
+1217,110,6,Primera clase,False,25
+9749,130,18,Economica,False,60
+8276,99,30,Ejecutiva,True,38
+1675,130,22,Economica,True,60
+7853,102,15,Economica,True,91
+3741,112,8,Economica,False,129
+3945,106,19,Economica,False,56
+9029,123,9,Ejecutiva,True,8
+1678,105,4,Primera clase,True,59
+4091,121,2,Economica,False,13
+6684,103,9,Primera clase,False,123
+1926,99,20,Economica,False,38
+7884,118,2,Primera clase,False,11
+6685,123,18,Economica,False,8
+4349,131,12,Economica,True,98
+5128,119,28,Economica,False,128
+134,126,5,Ejecutiva,False,3
+6844,131,15,Ejecutiva,False,98
+9634,109,9,Economica,False,90
+967,95,27,Economica,True,17
+353,129,23,Economica,False,18
+4457,99,10,Primera clase,False,38
+7163,125,23,Economica,False,41
+7647,133,23,Economica,False,63
+8156,104,9,Economica,True,65
+7913,128,6,Economica,False,62
+3739,129,10,Primera clase,True,18
+7914,111,26,Economica,True,33
+4510,95,17,Primera clase,False,17
+2710,101,18,Primera clase,True,35
+8174,100,29,Economica,False,34
+5074,111,7,Primera clase,True,33
+1674,97,19,Economica,False,102
+193,122,1,Economica,False,9
+1443,113,31,Ejecutiva,False,46
+9751,121,21,Economica,True,13
+5522,100,24,Primera clase,True,34
+631,116,21,Primera clase,False,28
+2586,97,15,Ejecutiva,True,102
+8877,109,21,Ejecutiva,False,90
+8476,101,20,Economica,False,35
+5539,129,27,Ejecutiva,False,18
+872,120,15,Economica,False,16
+6144,116,26,Ejecutiva,True,28
+7587,131,9,Ejecutiva,False,98
+3595,118,20,Economica,False,11
+8501,100,13,Ejecutiva,True,34
+853,110,16,Economica,False,25
+9203,103,1,Economica,True,123
+9252,121,7,Economica,True,13
+4238,97,30,Ejecutiva,False,102
+1978,124,10,Economica,True,32
+7651,99,11,Primera clase,True,38
+8842,114,15,Economica,True,93
+6558,100,1,Economica,False,34
+1377,128,19,Economica,True,62
+8496,128,10,Primera clase,False,62
+2782,116,30,Ejecutiva,False,28
+4694,107,16,Primera clase,True,66
+6570,112,19,Economica,True,129
+6638,103,7,Economica,False,123
+1285,97,17,Ejecutiva,True,102
+7767,122,6,Economica,True,9
+6140,104,3,Economica,False,65
+7303,97,25,Economica,True,102
+5274,121,16,Ejecutiva,False,13
+9744,117,8,Ejecutiva,False,122
+3111,102,25,Economica,True,91
+6211,115,17,Economica,True,107
+5777,125,21,Economica,True,41
+3895,104,32,Ejecutiva,False,65
+7212,124,1,Economica,False,32
+2431,113,23,Economica,True,46
+4991,113,1,Ejecutiva,True,46
+493,121,1,Ejecutiva,False,13
+1103,96,14,Primera clase,False,133
+5995,104,31,Economica,True,65
+394,97,31,Primera clase,True,102
+4806,129,19,Economica,True,18
+9302,102,20,Economica,True,91
+2195,115,14,Economica,True,107
+442,131,25,Economica,False,98
+6539,120,14,Primera clase,False,16
+3120,110,15,Economica,True,25
+4012,127,4,Ejecutiva,False,19
+1637,95,16,Economica,False,17
+881,118,26,Economica,True,11
+8996,124,25,Economica,False,32
+6113,106,14,Primera clase,True,56
+6604,119,15,Economica,False,128
+3230,125,5,Economica,True,41
+7293,106,5,Ejecutiva,True,56
+9135,118,17,Ejecutiva,False,11
+1445,108,12,Ejecutiva,True,51
+583,132,17,Primera clase,False,50
+1911,133,25,Economica,False,63
+8864,107,15,Ejecutiva,True,66
+6123,103,19,Economica,False,123
+7716,101,28,Economica,True,35
+1568,123,13,Economica,True,8
+5810,120,22,Economica,True,16
+5940,98,10,Economica,True,77
+7256,100,27,Economica,True,34
+4983,100,20,Economica,True,34
+1016,133,9,Economica,False,63
+3921,128,30,Ejecutiva,False,62
+8029,122,26,Economica,True,9
+5525,95,10,Ejecutiva,True,17
+2433,116,27,Ejecutiva,True,28
+2806,127,13,Economica,False,19
+3174,118,14,Primera clase,False,11
+2975,99,13,Economica,False,38
+2725,118,4,Economica,False,11
+8608,119,26,Economica,True,128
+5120,101,4,Economica,False,35
+9560,102,28,Ejecutiva,False,91
+4102,118,27,Economica,True,11
+3081,119,27,Ejecutiva,True,128
+6020,96,24,Ejecutiva,False,133
+1340,104,18,Economica,True,65
+9750,107,27,Economica,False,66
+5408,100,3,Economica,False,34
+6990,132,24,Primera clase,False,50
+5552,115,4,Economica,False,107
+2781,121,9,Ejecutiva,True,13
+4209,99,21,Economica,True,38
+2938,123,30,Economica,False,8
+705,113,26,Economica,False,46
+2755,130,1,Primera clase,False,60
+5335,125,8,Economica,True,41
+1805,103,4,Ejecutiva,False,123
+9048,130,17,Primera clase,True,60
+3100,132,14,Economica,False,50
+9315,97,7,Economica,True,102
+5390,100,14,Economica,False,34
+1970,100,5,Economica,False,34
+9497,101,11,Economica,True,35
+4866,133,8,Ejecutiva,False,63
+7726,111,28,Economica,True,33
+148,133,26,Economica,False,63
+8291,127,20,Primera clase,False,19
+7073,116,5,Economica,True,28
+1065,126,26,Economica,False,3
+4849,128,23,Primera clase,False,62
+4193,125,15,Economica,True,41
+2163,117,20,Economica,True,122
+9807,133,7,Economica,False,63
+6581,124,14,Ejecutiva,False,32
+6515,98,13,Economica,True,77
+6357,102,14,Economica,False,91
+1179,112,9,Ejecutiva,False,129
+2006,113,28,Economica,False,46
+8752,123,25,Economica,True,8
+6070,98,15,Economica,False,77
+90,97,3,Economica,True,102
+4776,100,8,Economica,False,34
+6996,124,2,Economica,False,32
+1090,105,22,Ejecutiva,True,59
+5203,98,9,Economica,False,77
+9059,101,5,Economica,True,35
+1968,101,21,Ejecutiva,False,35
+7107,98,20,Economica,False,77
+4165,123,27,Economica,True,8
+1548,129,26,Primera clase,False,18
+9607,116,31,Economica,False,28
+7617,109,16,Ejecutiva,True,90
+3107,106,20,Primera clase,False,56
+927,106,13,Primera clase,True,56
+707,130,10,Economica,True,60
+9352,97,18,Ejecutiva,True,102
+7305,131,17,Ejecutiva,True,98
+7103,120,12,Ejecutiva,True,16
+3360,113,24,Ejecutiva,True,46
+4588,121,14,Ejecutiva,True,13
+8335,127,16,Economica,False,19
+1929,113,14,Ejecutiva,True,46
+81,95,20,Economica,True,17
+8309,115,19,Primera clase,True,107
+2766,128,29,Economica,True,62
+8435,102,27,Economica,True,91
+9739,121,17,Ejecutiva,True,13
+4775,127,26,Economica,True,19
+7542,121,8,Ejecutiva,False,13
+4792,121,13,Ejecutiva,False,13
+7215,117,24,Economica,False,122
+8737,125,13,Ejecutiva,True,41
+5672,103,8,Economica,True,123
+4668,114,13,Economica,False,93
+9630,104,7,Primera clase,False,65
+5030,127,30,Primera clase,False,19
+7883,95,30,Ejecutiva,True,17
+8296,119,16,Economica,True,128
+6576,131,2,Economica,True,98
+8371,132,23,Economica,True,50
+4956,125,11,Economica,False,41
+6869,122,27,Economica,False,9
+7558,108,30,Economica,False,51
+4985,99,6,Primera clase,False,38
+9966,129,24,Primera clase,False,18
+5129,122,20,Economica,False,9
+2382,126,21,Economica,True,3
+4249,104,12,Economica,False,65
+8880,110,27,Ejecutiva,True,25
+4462,106,28,Primera clase,True,56
+7472,132,13,Ejecutiva,False,50
+7594,99,27,Primera clase,False,38
+1545,111,32,Economica,False,33
+994,126,29,Ejecutiva,False,3
+9017,96,21,Primera clase,False,133
+6779,98,29,Primera clase,False,77

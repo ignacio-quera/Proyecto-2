@@ -17,7 +17,8 @@
     ?>
 
 
-    <table align="center" class="table table-bordered">
+    <div style="margin-right:50px; margin-left:50px;" >
+    <table align="center" class="table table-bordered" margin:4px style="width:100%">
         <thead class="thead-dark">
         <tr>
             <th scope="col">Fecha Salida</th>
@@ -33,6 +34,7 @@
         ?>
         </tbody>
     </table>
+    </div>
 
     
 <?php include('../templates/footer.html'); ?>

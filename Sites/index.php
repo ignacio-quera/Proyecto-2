@@ -17,13 +17,13 @@
 <br>
 
 <h3 align="center">¿Quieres buscar los vuelos aceptados dado un código ICAO de un aeródromo y una aerolínea?</h3>
-<form align="center" action="consultas/consulta_tipo_icao_ca.php">
+<form align="center" action="consultas/consulta_tipo_icao_ca.php" method="post">
     Códgio ICAO:
     <input type="text" name="codigoicao" placeholder="Códgio de 4 letras">
-    <br>
+    <br><br>
     Aerolínea:
     <input type="text" name="compania" placeholder="Códgio de compañia">
-    <br>
+    <br><br>
     <input type="submit" value="Buscar">
 </form>
 
@@ -31,13 +31,10 @@
 <br>
 
 <h3 align="center">¿Quieres buscar los tickets dado un código de reserva, adémas de los pasajeros y costos asociados?</h3>
-<form align="center" action="consultas/consulta_tipo_icao_ca.php">
+<form align="center" action="consultas/consulta_tipo_codigo_reserva.php" method="post">
     Códgio de Reserva:
-    <input type="text" name="codigoicao" placeholder="Códgio de 4 letras">
-    <br>
-    Aerolínea:
-    <input type="text" name="compania" placeholder="Códgio de compañia">
-    <br>
+    <input type="text" name="codigoreserva" placeholder="Códgio de letras y números">
+    <br><br/>
     <input type="submit" value="Buscar">
 </form>
 
@@ -45,13 +42,7 @@
 <br>
 
 <h3 align="center">¿Quieres buscar el cliente que mas tickets ha comprado según cada aerolínea?</h3>
-<form align="center" action="consultas/consulta_tipo_icao_ca.php">
-    Códgio de Reserva:
-    <input type="text" name="codigoicao" placeholder="Códgio de 4 letras">
-    <br>
-    Aerolínea:
-    <input type="text" name="compania" placeholder="Códgio de compañia">
-    <br>
+<form align="center" action="consultas/consulta_tipo_cliente_ticket_compania.php">
     <input type="submit" value="Buscar">
 </form>
 
